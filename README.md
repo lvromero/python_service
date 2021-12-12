@@ -3,14 +3,20 @@
 ## Intro
 First flask server.
 ## Setup
-sudo apt install python3 python3-pip python3-venv
+Install pre-requisites
+`sudo apt install python3 python3-pip python3-venv`
 
+Enable Python virtual environment
+```
 python3 -m venv venv
-
 . venv/bin/activate
+```
 
-pip install Flask
+Install the Flask library
+`pip install Flask`
 
-flask run
-## usage
-http://127.0.0.1:5000/timesten/{any number}
+## Usage
+Run the server
+`flask run`
+
+http://127.0.0.1:5000/timesten/{any_number}
